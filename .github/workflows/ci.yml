@@ -28,10 +28,10 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
 
       - name: Install example dependencies
-        run: npm install --prefer-offline --no-audit --prefix app
+        run: npm install --prefer-offline --no-audit
 
       - name: Build example app
-        run: npm run build --prefix app
+        run: npm run build
 
       - name: Run example e2e tests
-        run: npm run test:e2e --prefix app
+        run: npm run test:e2e

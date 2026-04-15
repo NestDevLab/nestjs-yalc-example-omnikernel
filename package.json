@@ -1,0 +1,14 @@
+{
+  "name": "nestjs-yalc-example-omnikernel",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Generated public omnikernel example for nestjs-yalc",
+  "scripts": {
+    "build": "npm run build --prefix app",
+    "test:e2e": "npm run test:e2e --prefix app"
+  },
+  "workspaces": [
+    "app",
+    "module"
+  ]
+}

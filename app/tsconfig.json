@@ -20,52 +20,209 @@
     "esModuleInterop": true,
     "allowJs": true,
     "paths": {
-      "@nestjs/*": ["../../../node_modules/@nestjs/*"],
-      "typeorm": ["../../../node_modules/typeorm"],
-      "@nestjs-yalc/crud-gen": ["../../../crud-gen/src/index.ts"],
-      "@nestjs-yalc/crud-gen/*.js": ["../../../crud-gen/src/*.ts"],
-      "@nestjs-yalc/crud-gen/*": ["../../../crud-gen/src/*"],
-      "@nestjs-yalc/data-loader": ["../../../data-loader/src/index.ts"],
-      "@nestjs-yalc/data-loader/*.js": ["../../../data-loader/src/*.ts"],
-      "@nestjs-yalc/data-loader/*": ["../../../data-loader/src/*"],
-      "@nestjs-yalc/database": ["../../../database/src/index.ts"],
-      "@nestjs-yalc/database/*.js": ["../../../database/src/*.ts"],
-      "@nestjs-yalc/database/*": ["../../../database/src/*"],
-      "@nestjs-yalc/errors": ["../../../errors/src/index.ts"],
-      "@nestjs-yalc/errors/*.js": ["../../../errors/src/*.ts"],
-      "@nestjs-yalc/errors/*": ["../../../errors/src/*"],
-      "@nestjs-yalc/event-manager": ["../../../event-manager/src/index.ts"],
-      "@nestjs-yalc/event-manager/*.js": ["../../../event-manager/src/*.ts"],
-      "@nestjs-yalc/event-manager/*": ["../../../event-manager/src/*"],
+      "@nestjs/*": [
+        "../node_modules/@nestjs/*"
+      ],
+      "typeorm": [
+        "../node_modules/typeorm"
+      ],
+      "@nestjs-yalc/crud-gen": [
+        "../node_modules/@nestjs-yalc/crud-gen/src/index.js",
+        "../node_modules/@nestjs-yalc/crud-gen/src/index.d.ts"
+      ],
+      "@nestjs-yalc/crud-gen/*.js": [
+        "../../../crud-gen/src/*.ts"
+      ],
+      "@nestjs-yalc/crud-gen/*": [
+        "../node_modules/@nestjs-yalc/crud-gen/*",
+        "../node_modules/@nestjs-yalc/crud-gen/src/*"
+      ],
+      "@nestjs-yalc/data-loader": [
+        "../node_modules/@nestjs-yalc/data-loader/src/index.js",
+        "../node_modules/@nestjs-yalc/data-loader/src/index.d.ts"
+      ],
+      "@nestjs-yalc/data-loader/*.js": [
+        "../../../data-loader/src/*.ts"
+      ],
+      "@nestjs-yalc/data-loader/*": [
+        "../node_modules/@nestjs-yalc/data-loader/*",
+        "../node_modules/@nestjs-yalc/data-loader/src/*"
+      ],
+      "@nestjs-yalc/database": [
+        "../node_modules/@nestjs-yalc/database/src/index.js",
+        "../node_modules/@nestjs-yalc/database/src/index.d.ts"
+      ],
+      "@nestjs-yalc/database/*.js": [
+        "../../../database/src/*.ts"
+      ],
+      "@nestjs-yalc/database/*": [
+        "../node_modules/@nestjs-yalc/database/*",
+        "../node_modules/@nestjs-yalc/database/src/*"
+      ],
+      "@nestjs-yalc/errors": [
+        "../node_modules/@nestjs-yalc/errors/src/index.js",
+        "../node_modules/@nestjs-yalc/errors/src/index.d.ts"
+      ],
+      "@nestjs-yalc/errors/*.js": [
+        "../../../errors/src/*.ts"
+      ],
+      "@nestjs-yalc/errors/*": [
+        "../node_modules/@nestjs-yalc/errors/*",
+        "../node_modules/@nestjs-yalc/errors/src/*"
+      ],
+      "@nestjs-yalc/event-manager": [
+        "../node_modules/@nestjs-yalc/event-manager/src/index.js",
+        "../node_modules/@nestjs-yalc/event-manager/src/index.d.ts"
+      ],
+      "@nestjs-yalc/event-manager/*.js": [
+        "../../../event-manager/src/*.ts"
+      ],
+      "@nestjs-yalc/event-manager/*": [
+        "../node_modules/@nestjs-yalc/event-manager/*",
+        "../node_modules/@nestjs-yalc/event-manager/src/*"
+      ],
       "@nestjs-yalc/field-middleware": [
-        "../../../field-middleware/src/index.ts"
+        "../node_modules/@nestjs-yalc/field-middleware/src/index.js",
+        "../node_modules/@nestjs-yalc/field-middleware/src/index.d.ts"
       ],
       "@nestjs-yalc/field-middleware/*.js": [
         "../../../field-middleware/src/*.ts"
       ],
-      "@nestjs-yalc/field-middleware/*": ["../../../field-middleware/src/*"],
-      "@nestjs-yalc/graphql": ["../../../graphql/src/index.ts"],
-      "@nestjs-yalc/graphql/*.js": ["../../../graphql/src/*.ts"],
-      "@nestjs-yalc/graphql/*": ["../../../graphql/src/*"],
-      "@nestjs-yalc/interfaces": ["../../../interfaces/src/index.ts"],
-      "@nestjs-yalc/interfaces/*.js": ["../../../interfaces/src/*.ts"],
-      "@nestjs-yalc/interfaces/*": ["../../../interfaces/src/*"],
-      "@nestjs-yalc/logger": ["../../../logger/src/index.ts"],
-      "@nestjs-yalc/logger/*.js": ["../../../logger/src/*.ts"],
-      "@nestjs-yalc/logger/*": ["../../../logger/src/*"],
-      "@nestjs-yalc/types": ["../../../types/src/index.d.ts"],
-      "@nestjs-yalc/types/globals.d.js": ["../../../types/src/globals.d.ts"],
-      "@nestjs-yalc/types/*": ["../../../types/src/*"],
-      "@nestjs-yalc/utils": ["../../../utils/src/index.ts"],
-      "@nestjs-yalc/utils/*.js": ["../../../utils/src/*.ts"],
-      "@nestjs-yalc/utils/*": ["../../../utils/src/*"],
-      "@nestjs-yalc/omnikernel-module": ["../module/src/index.ts"],
-      "@nestjs-yalc/omnikernel-module/*": ["../module/src/*"],
-      "nestjs-yalc": ["../../../types/src/index.d.ts"],
-      "nestjs-yalc/*": ["../../../types/src/*"]
+      "@nestjs-yalc/field-middleware/*": [
+        "../node_modules/@nestjs-yalc/field-middleware/*",
+        "../node_modules/@nestjs-yalc/field-middleware/src/*"
+      ],
+      "@nestjs-yalc/graphql": [
+        "../node_modules/@nestjs-yalc/graphql/src/index.js",
+        "../node_modules/@nestjs-yalc/graphql/src/index.d.ts"
+      ],
+      "@nestjs-yalc/graphql/*.js": [
+        "../../../graphql/src/*.ts"
+      ],
+      "@nestjs-yalc/graphql/*": [
+        "../node_modules/@nestjs-yalc/graphql/*",
+        "../node_modules/@nestjs-yalc/graphql/src/*"
+      ],
+      "@nestjs-yalc/interfaces": [
+        "../node_modules/@nestjs-yalc/interfaces/src/index.js",
+        "../node_modules/@nestjs-yalc/interfaces/src/index.d.ts"
+      ],
+      "@nestjs-yalc/interfaces/*.js": [
+        "../../../interfaces/src/*.ts"
+      ],
+      "@nestjs-yalc/interfaces/*": [
+        "../node_modules/@nestjs-yalc/interfaces/*",
+        "../node_modules/@nestjs-yalc/interfaces/src/*"
+      ],
+      "@nestjs-yalc/logger": [
+        "../node_modules/@nestjs-yalc/logger/src/index.js",
+        "../node_modules/@nestjs-yalc/logger/src/index.d.ts"
+      ],
+      "@nestjs-yalc/logger/*.js": [
+        "../../../logger/src/*.ts"
+      ],
+      "@nestjs-yalc/logger/*": [
+        "../node_modules/@nestjs-yalc/logger/*",
+        "../node_modules/@nestjs-yalc/logger/src/*"
+      ],
+      "@nestjs-yalc/types": [
+        "../node_modules/@nestjs-yalc/types/src/index.js",
+        "../node_modules/@nestjs-yalc/types/src/index.d.ts"
+      ],
+      "@nestjs-yalc/types/globals.d.js": [
+        "../../../types/src/globals.d.ts"
+      ],
+      "@nestjs-yalc/types/*": [
+        "../node_modules/@nestjs-yalc/types/*",
+        "../node_modules/@nestjs-yalc/types/src/*"
+      ],
+      "@nestjs-yalc/utils": [
+        "../node_modules/@nestjs-yalc/utils/src/index.js",
+        "../node_modules/@nestjs-yalc/utils/src/index.d.ts"
+      ],
+      "@nestjs-yalc/utils/*.js": [
+        "../../../utils/src/*.ts"
+      ],
+      "@nestjs-yalc/utils/*": [
+        "../node_modules/@nestjs-yalc/utils/*",
+        "../node_modules/@nestjs-yalc/utils/src/*"
+      ],
+      "@nestjs-yalc/omnikernel-module": [
+        "../module/src/index.ts"
+      ],
+      "@nestjs-yalc/omnikernel-module/*": [
+        "../module/*",
+        "../module/src/*"
+      ],
+      "@nestjs-yalc/framework": [
+        "../node_modules/@nestjs-yalc/framework/src/index.js",
+        "../node_modules/@nestjs-yalc/framework/src/index.d.ts"
+      ],
+      "@nestjs-yalc/framework/*": [
+        "../node_modules/@nestjs-yalc/framework/*",
+        "../node_modules/@nestjs-yalc/framework/src/*"
+      ],
+      "@nestjs-yalc/app": [
+        "../node_modules/@nestjs-yalc/app/src/index.js",
+        "../node_modules/@nestjs-yalc/app/src/index.d.ts"
+      ],
+      "@nestjs-yalc/app/*": [
+        "../node_modules/@nestjs-yalc/app/*",
+        "../node_modules/@nestjs-yalc/app/src/*"
+      ],
+      "@nestjs-yalc/api-strategy": [
+        "../node_modules/@nestjs-yalc/api-strategy/src/index.js",
+        "../node_modules/@nestjs-yalc/api-strategy/src/index.d.ts"
+      ],
+      "@nestjs-yalc/api-strategy/*": [
+        "../node_modules/@nestjs-yalc/api-strategy/*",
+        "../node_modules/@nestjs-yalc/api-strategy/src/*"
+      ],
+      "@nestjs-yalc/aws-helpers": [
+        "../node_modules/@nestjs-yalc/aws-helpers/src/index.js",
+        "../node_modules/@nestjs-yalc/aws-helpers/src/index.d.ts"
+      ],
+      "@nestjs-yalc/aws-helpers/*": [
+        "../node_modules/@nestjs-yalc/aws-helpers/*",
+        "../node_modules/@nestjs-yalc/aws-helpers/src/*"
+      ],
+      "@nestjs-yalc/jest": [
+        "../node_modules/@nestjs-yalc/jest/src/index.js",
+        "../node_modules/@nestjs-yalc/jest/src/index.d.ts"
+      ],
+      "@nestjs-yalc/jest/*": [
+        "../node_modules/@nestjs-yalc/jest/*",
+        "../node_modules/@nestjs-yalc/jest/src/*"
+      ],
+      "@nestjs-yalc/jest-config": [
+        "../node_modules/@nestjs-yalc/jest-config/src/index.js",
+        "../node_modules/@nestjs-yalc/jest-config/src/index.d.ts"
+      ],
+      "@nestjs-yalc/jest-config/*": [
+        "../node_modules/@nestjs-yalc/jest-config/*",
+        "../node_modules/@nestjs-yalc/jest-config/src/*"
+      ],
+      "@nestjs-yalc/kafka": [
+        "../node_modules/@nestjs-yalc/kafka/src/index.js",
+        "../node_modules/@nestjs-yalc/kafka/src/index.d.ts"
+      ],
+      "@nestjs-yalc/kafka/*": [
+        "../node_modules/@nestjs-yalc/kafka/*",
+        "../node_modules/@nestjs-yalc/kafka/src/*"
+      ],
+      "@nestjs-yalc/types-extends": [
+        "../node_modules/@nestjs-yalc/types-extends/src/index.js",
+        "../node_modules/@nestjs-yalc/types-extends/src/index.d.ts"
+      ],
+      "@nestjs-yalc/types-extends/*": [
+        "../node_modules/@nestjs-yalc/types-extends/*",
+        "../node_modules/@nestjs-yalc/types-extends/src/*"
+      ]
     }
   },
-  "include": ["apps/**/src/**/*.ts"],
+  "include": [
+    "apps/**/src/**/*.ts"
+  ],
   "exclude": [
     "node_modules",
     "dist",
