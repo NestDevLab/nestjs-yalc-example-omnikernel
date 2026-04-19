@@ -210,6 +210,14 @@
         "../node_modules/@nestjs-yalc/kafka/*",
         "../node_modules/@nestjs-yalc/kafka/src/*"
       ],
+      "@nestjs-yalc/observability": [
+        "../node_modules/@nestjs-yalc/observability/src/index.js",
+        "../node_modules/@nestjs-yalc/observability/src/index.d.ts"
+      ],
+      "@nestjs-yalc/observability/*": [
+        "../node_modules/@nestjs-yalc/observability/*",
+        "../node_modules/@nestjs-yalc/observability/src/*"
+      ],
       "@nestjs-yalc/types-extends": [
         "../node_modules/@nestjs-yalc/types-extends/src/index.js",
         "../node_modules/@nestjs-yalc/types-extends/src/index.d.ts"
