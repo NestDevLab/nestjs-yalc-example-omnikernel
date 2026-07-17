@@ -172,6 +172,14 @@
         "../node_modules/@nestjs-yalc/app/*",
         "../node_modules/@nestjs-yalc/app/src/*"
       ],
+      "@nestjs-yalc/audit": [
+        "../node_modules/@nestjs-yalc/audit/src/index.js",
+        "../node_modules/@nestjs-yalc/audit/src/index.d.ts"
+      ],
+      "@nestjs-yalc/audit/*": [
+        "../node_modules/@nestjs-yalc/audit/*",
+        "../node_modules/@nestjs-yalc/audit/src/*"
+      ],
       "@nestjs-yalc/api-strategy": [
         "../node_modules/@nestjs-yalc/api-strategy/src/index.js",
         "../node_modules/@nestjs-yalc/api-strategy/src/index.d.ts"
