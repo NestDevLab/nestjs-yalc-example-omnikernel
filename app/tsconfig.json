@@ -28,6 +28,14 @@
       "typeorm": [
         "../node_modules/typeorm"
       ],
+      "@nestjs-yalc/app": [
+        "../node_modules/@nestjs-yalc/app/src/index.js",
+        "../node_modules/@nestjs-yalc/app/src/index.d.ts"
+      ],
+      "@nestjs-yalc/app/*": [
+        "../node_modules/@nestjs-yalc/app/*",
+        "../node_modules/@nestjs-yalc/app/src/*"
+      ],
       "@nestjs-yalc/crud-gen": [
         "../node_modules/@nestjs-yalc/crud-gen/src/index.js",
         "../node_modules/@nestjs-yalc/crud-gen/src/index.d.ts"
@@ -163,14 +171,6 @@
       "@nestjs-yalc/framework/*": [
         "../node_modules/@nestjs-yalc/framework/*",
         "../node_modules/@nestjs-yalc/framework/src/*"
-      ],
-      "@nestjs-yalc/app": [
-        "../node_modules/@nestjs-yalc/app/src/index.js",
-        "../node_modules/@nestjs-yalc/app/src/index.d.ts"
-      ],
-      "@nestjs-yalc/app/*": [
-        "../node_modules/@nestjs-yalc/app/*",
-        "../node_modules/@nestjs-yalc/app/src/*"
       ],
       "@nestjs-yalc/audit": [
         "../node_modules/@nestjs-yalc/audit/src/index.js",
