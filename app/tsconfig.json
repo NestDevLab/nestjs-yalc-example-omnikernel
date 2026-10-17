@@ -180,6 +180,14 @@
         "../node_modules/@nestjs-yalc/audit/*",
         "../node_modules/@nestjs-yalc/audit/src/*"
       ],
+      "@nestjs-yalc/auth": [
+        "../node_modules/@nestjs-yalc/auth/src/index.js",
+        "../node_modules/@nestjs-yalc/auth/src/index.d.ts"
+      ],
+      "@nestjs-yalc/auth/*": [
+        "../node_modules/@nestjs-yalc/auth/*",
+        "../node_modules/@nestjs-yalc/auth/src/*"
+      ],
       "@nestjs-yalc/api-strategy": [
         "../node_modules/@nestjs-yalc/api-strategy/src/index.js",
         "../node_modules/@nestjs-yalc/api-strategy/src/index.d.ts"
@@ -195,6 +203,14 @@
       "@nestjs-yalc/aws-helpers/*": [
         "../node_modules/@nestjs-yalc/aws-helpers/*",
         "../node_modules/@nestjs-yalc/aws-helpers/src/*"
+      ],
+      "@nestjs-yalc/health": [
+        "../node_modules/@nestjs-yalc/health/src/index.js",
+        "../node_modules/@nestjs-yalc/health/src/index.d.ts"
+      ],
+      "@nestjs-yalc/health/*": [
+        "../node_modules/@nestjs-yalc/health/*",
+        "../node_modules/@nestjs-yalc/health/src/*"
       ],
       "@nestjs-yalc/jest": [
         "../node_modules/@nestjs-yalc/jest/src/index.js",
